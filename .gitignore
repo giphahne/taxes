@@ -99,3 +99,7 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# emacs development
+.emacs.desktop
+.emacs.desktop.lock
