@@ -9,16 +9,19 @@ align_closing_bracket_with_visual_indent=True
 #        'this is the second element of a tuple'):
 #            value,
 #   }
-allow_multiline_dictionary_keys=False
+#allow_multiline_dictionary_keys=False
+allow_multiline_dictionary_keys=True
 
 # Allow lambdas to be formatted on more than one line.
-allow_multiline_lambdas=False
+#allow_multiline_lambdas=False
+allow_multiline_lambdas=True
 
 # Allow splits before the dictionary value.
 allow_split_before_dict_value=True
 
 # Insert a blank line before a class-level docstring.
-blank_line_before_class_docstring=False
+#blank_line_before_class_docstring=False
+blank_line_before_class_docstring=True
 
 # Insert a blank line before a 'def' or 'class' immediately nested
 # within another 'def' or 'class'. For example:
@@ -27,7 +30,8 @@ blank_line_before_class_docstring=False
 #                      # <------ this blank line
 #     def method():
 #       ...
-blank_line_before_nested_class_or_def=False
+#blank_line_before_nested_class_or_def=False
+blank_line_before_nested_class_or_def=True
 
 # Do not split consecutive brackets. Only relevant when
 # dedent_closing_brackets is set. For example:
@@ -45,7 +49,8 @@ blank_line_before_nested_class_or_def=False
 #        'key1': 'value1',
 #        'key2': 'value2',
 #    })
-coalesce_brackets=False
+#coalesce_brackets=False
+coalesce_brackets=True
 
 # The column limit.
 column_limit=79
@@ -69,7 +74,8 @@ continuation_indent_width=4
 #       start_ts=now()-timedelta(days=3),
 #       end_ts=now(),
 #   )        # <--- this bracket is dedented and on a separate line
-dedent_closing_brackets=False
+#dedent_closing_brackets=False
+dedent_closing_brackets=True
 
 # Place each dictionary entry onto its own line.
 each_dict_entry_on_separate_line=True
@@ -99,7 +105,8 @@ indent_dictionary_value=False
 indent_width=4
 
 # Join short lines into one line. E.g., single line 'if' statements.
-join_multiple_lines=True
+#join_multiple_lines=True
+join_multiple_lines=False
 
 # Do not include spaces around selected binary operators. For example:
 #

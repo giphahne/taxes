@@ -1,33 +1,35 @@
+"""
+"""
+
+
 def average_cost_basis(sells, buys):
     """
     """
-    pass
-
-
+    return "hello world: average_cost_basis"
 
 
 def lifo_cost_basis(sells, buys):
     """
     """
-    pass
+    return "hello world: lifo_cost_basis"
 
 
 def fifo_cost_basis(sells, buys):
     """
     """
-    pass
+    return "hello world: fifo_cost_basis"
 
 
 def high_cost_first_out_cost_basis(sells, buys):
     """
     """
-    pass
+    return "hello world: high_cost_first_out_cost_basis"
 
 
 def low_cost_first_out_cost_basis(sells, buys):
     """
     """
-    pass
+    return "hello world: low_cost_first_out_cost_basis"
 
 
 def cost_basis(sells, buys, method="LIFO"):
