@@ -28,7 +28,9 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'costbasis=py_cost_basis:main',
+            'costbasis-compute=py_cost_basis:main',
+            'costbasis-ingest=py_cost_basis:ingest',
+            'costbasis-dedup=py_cost_basis:dedup',
         ],
     },
 )
